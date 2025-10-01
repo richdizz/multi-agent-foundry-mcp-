@@ -1,0 +1,25 @@
+# For async support
+aiohttp>=3.8.0
+
+# For development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
+pylint>=2.17.0
+
+# For HTTP requests (weather, stock APIs)
+httpx>=0.25.0
+requests>=2.31.0
+
+# For environment variables
+python-dotenv>=1.0.0
+
+# Azure AI Foundry dependencies
+azure-ai-projects>=1.0.0
+azure-ai-agents>=1.0.0
+azure-identity>=1.15.0
+
+# MCP (Model Context Protocol) dependencies
+mcp>=1.0.0
+mcp-server>=0.1.4
